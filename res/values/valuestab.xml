@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tabs">
+        <item >Ver Perfil</item>
+        <item >Editar Perfil</item>
+        <item >Borrar Perfil</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.giiis.asee.qasee.AppSelected" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:showAsAction="never"
+         android:orderInCategory="2"
+        android:icon="@drawable/ic_action_settings"
+        android:title="Opciones"/>
+ 
+    <item
+        android:id="@+id/menu_sound_off"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_volume_muted"
+        android:title="Sonido Off"/>
+    <item
+        android:id="@+id/menu_sound_on"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_volume_on"
+        android:title="Sonido On"/>
+ 
+    <item
+        android:id="@+id/menu_user"
+        android:showAsAction="never"
+         android:orderInCategory="1"
+        android:icon="@drawable/ic_action_person"
+        android:title="Tu Perfil"/>
+
+</menu>
